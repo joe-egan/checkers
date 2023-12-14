@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+
+<body>
+ 
+
+ 
+ 
+</body>
+</html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,24 +38,36 @@
 	
 		
 		
+<div id="draggable" class="all-check">
+		<p>
+			<li> Wcheck</li>
+		</p>
 
+
+	
 	<div class="container">
 		<p class="draggable" dragabble="true"></p>
 		
 
 	<div class="container"></div>
 		<h1>CHECKERS</h1>
+		<ul> 
+			<div class="div" id="row8">
+			<li class="Wcheck" id="dragabble">Wcheck</li>
+			</div>
+		</ul>
 
 		<ul>
+			
 
 			<div class="div" id="row8">
-				<li class="box" class="draggable" id="b801">Wcheck</li>
+				<li class="box" id="b801">Wcheck</li>
 				<li class="box" id="b802"></li>
-				<li class="box" class="draggable" id="b803">Wcheck</li>
+				<li class="box" id="b803">Wcheck</li>
 				<li class="box" id="b804"></li>
-				<li class="box" class="draggable" id="b805">Wcheck</li>
+				<li class="box" id="b805">Wcheck</li>
 				<li class="box" id="b806"></li>
-				<li class="box" class="draggable" id="b807">Wcheck</li>
+				<li class="box" id="b807">Wcheck</li>
 				<li class="box" id="b808"></li>
 			</div>
 
@@ -117,6 +155,11 @@
 	</div>
 
 	<script src="logic.js"></script>
+
+</div>
+	
+
+
 </body>
 </html>
 

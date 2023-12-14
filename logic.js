@@ -1,4 +1,4 @@
-//inserting the images
+
 function insertImages()
 {
     document.querySelectorAll('.box').forEach(image => {
@@ -7,7 +7,9 @@ function insertImages()
                 image.innerHTML = `${image.innerText} <img class='all-img all-pown'
                 src="${image.innerText}.png" alt="">`
                 image.style.cursor = 'pointer'
-            }
+                
+                
+                        }
             else{
                 image.innerHTML = `${image.innerText} <img class='all-img' src="$
                 {image.innerText}.png" alt="">`
@@ -18,7 +20,7 @@ function insertImages()
 }
 insertImages()
 
-//Coloring the board
+
 
 function coloring()
 {
@@ -42,7 +44,7 @@ function coloring()
 }
 coloring()
 
-    //reset button
+    
 
 document.getElementById("reset-btn").addEventListener("click",function () {
     location.reload();
@@ -83,12 +85,12 @@ document.querySelectorAll('.box').forEach(item => {
         aup = eval(arr.join(''))
         a = aside + aup
 
-        //function to display the availabel apaths for all piees
+       
 
         
 
 
-        //toggling the turn
+        
 
         if (tog % 2 !== 0) {
             document.getElementById('tog').innerText = "Black's Turn"
